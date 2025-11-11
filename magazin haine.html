@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ro"> <head>
+    <meta charset="UTF-8">
+    <title>Magazin haine</title>
+    
+    <style>
+        nav {
+            display: flex; 
+            gap: 20px; 
+            background-color: #f0f0f0; 
+            padding: 15px;
+            border-radius: 5px;
+        }
+        nav a {
+            text-decoration: none; 
+            color: black;
+            font-size: 1.2em;
+        }
+        .cart-link {
+            margin-left: auto;  
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Magazin haine</h1>
+
+    <nav>
+        <a href='file:///C:/Users/user/lamp-studenti/Haine%20pentru%20barbati.html'>Barbati</a>
+        <a href='file:///C:/Users/user/lamp-studenti/Haine%20pentru%20femei.html'>Femei</a>
+        
+        <a href='cos.html' class="cart-link">🛒 Coșul meu</a>
+    </nav>
+
+    <hr> <form action="action_page.php">
+      <div class="container">
+        <h2>Abonează-te la newsletterul nostru</h2>
+        <p>Abonează-te la newsletterul nostru pentru a primi informări referitoare la noutăți, lansări și promoții înaintea tuturor.</p>
+      </div>
+
+      <div class="container" style="background-color:white">
+        <input type="text" placeholder="Nume" name="name" required>
+        <input type="email" placeholder="Adresă Email" name="mail" required>
+        <br><br> <label>
+          <input type="checkbox" checked="checked" name="subscribe"> Newsletter zilnic
+        </label>
+      </div>
+
+      <div class="container">
+        <input type="submit" value="Abonează-te"> </div>
+    </form>
+
+</body>
+</html>
